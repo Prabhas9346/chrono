@@ -1,0 +1,41 @@
+.projectImg {
+  width: 30rem;
+}
+.containerMain {
+  display: flex;
+  flex-direction: column;
+}
+.headingBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+h1 {
+  font-size: 1.5rem;
+  color: #171f46;
+}
+p {
+  font-size: 1rem;
+  margin-left: 1vw;
+}
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+li {
+  margin: 0.5rem;
+  color: #2b237c;
+  background-color: #ffffff;
+  font-weight: bold;
+  padding: 0.5rem;
+  border: solid 1px #0967d2;
+  border-radius: 1vw;
+}
+a {
+  font-size: 1.2rem;
+  text-decoration: none;
+  font-weight: bold;
+  color: #0967d2;
+  margin: 1rem;
+}
